@@ -1,0 +1,19 @@
+2023-10-31 00:11:11.395 +01:00 [Information] User profile is available. Using '"C:\Users\harun\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 00:11:12.263 +01:00 [Information] Now listening on: "https://localhost:7290"
+2023-10-31 00:11:12.263 +01:00 [Information] Now listening on: "http://localhost:5152"
+2023-10-31 00:11:12.267 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-31 00:11:12.268 +01:00 [Information] Hosting environment: "Development"
+2023-10-31 00:11:12.268 +01:00 [Information] Content root path: "C:\Users\harun\OneDrive\Masaüstü\Forum\Forum\"
+2023-10-31 00:11:12.703 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Questions/Edit/2 - -
+2023-10-31 00:11:13.148 +01:00 [Information] Executing endpoint '"Forum.Controllers.QuestionsController.Edit (Forum)"'
+2023-10-31 00:11:13.170 +01:00 [Information] Route matched with "{action = \"Edit\", controller = \"Questions\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(System.Nullable`1[System.Int32])" on controller "Forum.Controllers.QuestionsController" ("Forum").
+2023-10-31 00:11:13.855 +01:00 [Information] Entity Framework Core "6.0.23" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.23"' with options: "None"
+2023-10-31 00:11:15.033 +01:00 [Information] Executing ViewResult, running view "Edit".
+2023-10-31 00:11:15.386 +01:00 [Information] Executed ViewResult - view "Edit" executed in 355.055ms.
+2023-10-31 00:11:15.387 +01:00 [Information] Executed action "Forum.Controllers.QuestionsController.Edit (Forum)" in 2216.2118ms
+2023-10-31 00:11:15.387 +01:00 [Information] Executed endpoint '"Forum.Controllers.QuestionsController.Edit (Forum)"'
+2023-10-31 00:11:15.401 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-10-31 00:11:15.401 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 00:11:15.403 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Questions/Edit/2 - - - 200 - text/html;+charset=utf-8 2703.4543ms
+2023-10-31 00:11:15.404 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 2.6321ms
+2023-10-31 00:11:15.411 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.8546ms

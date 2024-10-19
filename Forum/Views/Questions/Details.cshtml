@@ -1,0 +1,53 @@
+﻿@model Forum.Models.Question
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+    
+
+<h3><strong>Title:</strong> @Model.Title</h3>
+<p><strong>Description:</strong> @Model.Description</p>
+<p><strong>Asked by:</strong> @Model.User.UserName</p>
+
+<h4>All Answers:</h4>
+<hr />
+<h4>Write your answer:</h4>
+
+@foreach (var answer in Model.Answers)
+{
+    if (answer != null && answer.User != null)
+    {
+        <p>@answer.Content - @answer.User.UserName replied</p>
+        <hr />
+    }
+}
+ 
+
+
+@if (User.Identity.IsAuthenticated)
+{
+
+    <form asp-action="AddAnswer">
+        <div class="form-group">
+            <textarea name="Content" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+            <input type="hidden" name="IdentityUserId" class="form-control" value="@UserManager.GetUserId(User)"/>
+        </div>
+        <div class="form-group">
+            <input type="hidden" name="QuestionId" class="form-control" value="@Model.Id" />
+        </div>
+        <div class="form-group">
+            <input style="margin-top:10px;" type="submit" class="btn btn-info" value="Reply" />
+
+        </div>
+    </form>
+}
+<a asp-action="Index" class="btn btn-outline-primary" style="margin-top:10px;">Back to List</a>
+

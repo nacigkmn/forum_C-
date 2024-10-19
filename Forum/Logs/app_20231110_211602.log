@@ -1,0 +1,2 @@
+2023-11-10 21:16:05.232 +01:00 [Information] Entity Framework Core "6.0.23" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.Sqlite":"6.0.23"' with options: "None"
+2023-11-10 21:16:05.770 +01:00 [Information] Applying migration '"20231110201453_IdentityAdded"'.

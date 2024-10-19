@@ -1,0 +1,40 @@
+2023-10-31 00:08:05.655 +01:00 [Information] User profile is available. Using '"C:\Users\harun\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 00:08:05.975 +01:00 [Information] Now listening on: "https://localhost:7290"
+2023-10-31 00:08:05.975 +01:00 [Information] Now listening on: "http://localhost:5152"
+2023-10-31 00:08:05.980 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-31 00:08:05.980 +01:00 [Information] Hosting environment: "Development"
+2023-10-31 00:08:05.980 +01:00 [Information] Content root path: "C:\Users\harun\OneDrive\Masaüstü\Forum\Forum\"
+2023-10-31 00:08:06.570 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Questions/Edit/2 - -
+2023-10-31 00:08:06.822 +01:00 [Information] Executing endpoint '"Forum.Controllers.QuestionsController.Edit (Forum)"'
+2023-10-31 00:08:06.849 +01:00 [Information] Route matched with "{action = \"Edit\", controller = \"Questions\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(System.Nullable`1[System.Int32])" on controller "Forum.Controllers.QuestionsController" ("Forum").
+2023-10-31 00:08:07.799 +01:00 [Information] Entity Framework Core "6.0.23" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.23"' with options: "None"
+2023-10-31 00:08:08.700 +01:00 [Information] Executing ViewResult, running view "Edit".
+2023-10-31 00:08:08.906 +01:00 [Information] Executed ViewResult - view "Edit" executed in 203.2127ms.
+2023-10-31 00:08:08.909 +01:00 [Information] Executed action "Forum.Controllers.QuestionsController.Edit (Forum)" in 2059.5392ms
+2023-10-31 00:08:08.910 +01:00 [Information] Executed endpoint '"Forum.Controllers.QuestionsController.Edit (Forum)"'
+2023-10-31 00:08:08.932 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Forum.styles.css?v=WLrVMYiZoeVtYvtsR1KO9jHv7jJpDgGkNNRPzibFmBk - -
+2023-10-31 00:08:08.932 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/css/site.css?v=xb4QVjUfIwH3AAdWsQq0Z8PTgD-LybR3L14bbNR4Xc0 - -
+2023-10-31 00:08:08.932 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-10-31 00:08:08.935 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Questions/Edit/2 - - - 200 - text/html;+charset=utf-8 2371.9778ms
+2023-10-31 00:08:08.938 +01:00 [Information] The file "/css/site.css" was not modified
+2023-10-31 00:08:08.938 +01:00 [Information] The file "/Forum.styles.css" was not modified
+2023-10-31 00:08:08.938 +01:00 [Information] The file "/lib/bootstrap/dist/css/bootstrap.min.css" was not modified
+2023-10-31 00:08:08.939 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 7.3312ms
+2023-10-31 00:08:08.939 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/css/site.css?v=xb4QVjUfIwH3AAdWsQq0Z8PTgD-LybR3L14bbNR4Xc0 - - - 304 - text/css 7.2830ms
+2023-10-31 00:08:08.939 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Forum.styles.css?v=WLrVMYiZoeVtYvtsR1KO9jHv7jJpDgGkNNRPzibFmBk - - - 304 - text/css 7.3021ms
+2023-10-31 00:08:08.955 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/lib/jquery/dist/jquery.min.js - -
+2023-10-31 00:08:08.955 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-10-31 00:08:08.955 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-10-31 00:08:08.955 +01:00 [Information] The file "/lib/jquery/dist/jquery.min.js" was not modified
+2023-10-31 00:08:08.956 +01:00 [Information] The file "/js/site.js" was not modified
+2023-10-31 00:08:08.956 +01:00 [Information] The file "/lib/bootstrap/dist/js/bootstrap.bundle.min.js" was not modified
+2023-10-31 00:08:08.956 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - application/javascript 1.2809ms
+2023-10-31 00:08:08.956 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/lib/jquery/dist/jquery.min.js - - - 304 - application/javascript 1.4624ms
+2023-10-31 00:08:08.956 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 1.4979ms
+2023-10-31 00:08:08.962 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 00:08:08.966 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 3.8273ms
+2023-10-31 00:08:08.973 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-10-31 00:08:08.992 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.8846ms
+2023-10-31 00:08:09.058 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/favicon.ico - -
+2023-10-31 00:08:09.058 +01:00 [Information] The file "/favicon.ico" was not modified
+2023-10-31 00:08:09.059 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/favicon.ico - - - 304 - image/x-icon 0.9281ms

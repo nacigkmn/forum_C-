@@ -1,0 +1,66 @@
+﻿@page
+@using Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Manage.Internal;
+@model IndexModel
+
+
+<div class="container">
+    <h1 class="text-center mt-5">Welcome!</h1>
+    <p class="text-center">Welcome to Forum. Here you can ask questions, give answers and share information.</p>
+    
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">View Questions</h5>
+                    <p class="card-text">Review questions asked by other users and provide answers.</p>
+                    <a href="@Url.Action("Index","Questions")" class="btn btn-primary">View Questions</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Ask question</h5>
+                    <p class="card-text">Ask your own questions and get answers from other users.</p>
+                    <a href="@Url.Action("Create", "Questions")" class="btn btn-success">Ask question</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div id="carouselImages" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselImages" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselImages" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselImages" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselImages" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselImages" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+
+        <div class="carousel-inner">
+             
+            <div class="carousel-item active">
+                <img src="/images/frm1.jpg" class="d-block w-100" alt="Responsive image" style="width:auto; height:280px;">
+                
+            </div>
+            <div class="carousel-item">
+                <img src="/images/frm2.jpg" class="d-block w-100" alt="Responsive image" style="width:auto; height:280px;">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/ans1.jpg" class="d-block w-100" alt="Responsive image" style="width:auto; height:280px;">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/ans2.jpg" class="d-block w-100" alt="Responsive image" style="width:auto; height:280px;">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/ans3.jpg" class="d-block w-100" alt="Responsive image" style="width:auto; height:280px;">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+

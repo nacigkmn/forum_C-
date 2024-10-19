@@ -1,0 +1,60 @@
+2023-10-31 00:30:04.697 +01:00 [Information] User profile is available. Using '"C:\Users\harun\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 00:30:05.017 +01:00 [Information] Now listening on: "https://localhost:7290"
+2023-10-31 00:30:05.017 +01:00 [Information] Now listening on: "http://localhost:5152"
+2023-10-31 00:30:05.024 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-31 00:30:05.025 +01:00 [Information] Hosting environment: "Development"
+2023-10-31 00:30:05.025 +01:00 [Information] Content root path: "C:\Users\harun\OneDrive\Masaüstü\Forum\Forum\"
+2023-10-31 00:30:05.252 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Questions/Details/4 - -
+2023-10-31 00:30:05.450 +01:00 [Information] Executing endpoint '"Forum.Controllers.QuestionsController.Details (Forum)"'
+2023-10-31 00:30:05.472 +01:00 [Information] Route matched with "{action = \"Details\", controller = \"Questions\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(System.Nullable`1[System.Int32])" on controller "Forum.Controllers.QuestionsController" ("Forum").
+2023-10-31 00:30:06.224 +01:00 [Information] Entity Framework Core "6.0.23" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.23"' with options: "None"
+2023-10-31 00:30:07.113 +01:00 [Information] Executing ViewResult, running view "Details".
+2023-10-31 00:30:07.239 +01:00 [Information] Executed ViewResult - view "Details" executed in 126.5867ms.
+2023-10-31 00:30:07.241 +01:00 [Information] Executed action "Forum.Controllers.QuestionsController.Details (Forum)" in 1768.8609ms
+2023-10-31 00:30:07.242 +01:00 [Information] Executed endpoint '"Forum.Controllers.QuestionsController.Details (Forum)"'
+2023-10-31 00:30:07.255 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 00:30:07.255 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-10-31 00:30:07.257 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Questions/Details/4 - - - 200 - text/html;+charset=utf-8 2008.1953ms
+2023-10-31 00:30:07.258 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 2.5626ms
+2023-10-31 00:30:07.264 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.4284ms
+2023-10-31 00:30:11.784 +01:00 [Information] Request starting HTTP/2 POST https://localhost:7290/Questions/AddAnswer application/x-www-form-urlencoded 303
+2023-10-31 00:30:11.800 +01:00 [Information] Executing endpoint '"Forum.Controllers.QuestionsController.AddAnswer (Forum)"'
+2023-10-31 00:30:11.812 +01:00 [Information] Route matched with "{action = \"AddAnswer\", controller = \"Questions\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddAnswer(Forum.Models.Answer)" on controller "Forum.Controllers.QuestionsController" ("Forum").
+2023-10-31 00:30:11.828 +01:00 [Information] Executing RedirectResult, redirecting to "/Questions/Details/4".
+2023-10-31 00:30:11.828 +01:00 [Information] Executed action "Forum.Controllers.QuestionsController.AddAnswer (Forum)" in 15.9369ms
+2023-10-31 00:30:11.828 +01:00 [Information] Executed endpoint '"Forum.Controllers.QuestionsController.AddAnswer (Forum)"'
+2023-10-31 00:30:11.829 +01:00 [Information] Request finished HTTP/2 POST https://localhost:7290/Questions/AddAnswer application/x-www-form-urlencoded 303 - 302 0 - 45.6897ms
+2023-10-31 00:30:11.832 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Questions/Details/4 - -
+2023-10-31 00:30:11.845 +01:00 [Information] Executing endpoint '"Forum.Controllers.QuestionsController.Details (Forum)"'
+2023-10-31 00:30:11.845 +01:00 [Information] Route matched with "{action = \"Details\", controller = \"Questions\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(System.Nullable`1[System.Int32])" on controller "Forum.Controllers.QuestionsController" ("Forum").
+2023-10-31 00:30:11.847 +01:00 [Information] Entity Framework Core "6.0.23" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.23"' with options: "None"
+2023-10-31 00:30:11.859 +01:00 [Information] Executing ViewResult, running view "Details".
+2023-10-31 00:30:11.867 +01:00 [Information] Executed ViewResult - view "Details" executed in 7.9298ms.
+2023-10-31 00:30:11.867 +01:00 [Information] Executed action "Forum.Controllers.QuestionsController.Details (Forum)" in 21.4662ms
+2023-10-31 00:30:11.867 +01:00 [Information] Executed endpoint '"Forum.Controllers.QuestionsController.Details (Forum)"'
+2023-10-31 00:30:11.870 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Questions/Details/4 - - - 200 - text/html;+charset=utf-8 37.5060ms
+2023-10-31 00:30:11.881 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-10-31 00:30:11.882 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 00:30:11.882 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.4229ms
+2023-10-31 00:30:11.886 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.8438ms
+2023-10-31 00:30:59.701 +01:00 [Information] Request starting HTTP/2 POST https://localhost:7290/Questions/AddAnswer application/x-www-form-urlencoded 320
+2023-10-31 00:30:59.705 +01:00 [Information] Executing endpoint '"Forum.Controllers.QuestionsController.AddAnswer (Forum)"'
+2023-10-31 00:30:59.706 +01:00 [Information] Route matched with "{action = \"AddAnswer\", controller = \"Questions\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddAnswer(Forum.Models.Answer)" on controller "Forum.Controllers.QuestionsController" ("Forum").
+2023-10-31 00:30:59.788 +01:00 [Information] Entity Framework Core "6.0.23" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.23"' with options: "None"
+2023-10-31 00:31:00.044 +01:00 [Information] Executing RedirectResult, redirecting to "/Questions/Details/4".
+2023-10-31 00:31:00.044 +01:00 [Information] Executed action "Forum.Controllers.QuestionsController.AddAnswer (Forum)" in 338.1361ms
+2023-10-31 00:31:00.044 +01:00 [Information] Executed endpoint '"Forum.Controllers.QuestionsController.AddAnswer (Forum)"'
+2023-10-31 00:31:00.045 +01:00 [Information] Request finished HTTP/2 POST https://localhost:7290/Questions/AddAnswer application/x-www-form-urlencoded 320 - 302 0 - 343.8303ms
+2023-10-31 00:31:00.049 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Questions/Details/4 - -
+2023-10-31 00:31:00.051 +01:00 [Information] Executing endpoint '"Forum.Controllers.QuestionsController.Details (Forum)"'
+2023-10-31 00:31:00.051 +01:00 [Information] Route matched with "{action = \"Details\", controller = \"Questions\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(System.Nullable`1[System.Int32])" on controller "Forum.Controllers.QuestionsController" ("Forum").
+2023-10-31 00:31:00.052 +01:00 [Information] Entity Framework Core "6.0.23" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.23"' with options: "None"
+2023-10-31 00:31:00.079 +01:00 [Information] Executing ViewResult, running view "Details".
+2023-10-31 00:31:00.085 +01:00 [Information] Executed ViewResult - view "Details" executed in 6.8395ms.
+2023-10-31 00:31:00.086 +01:00 [Information] Executed action "Forum.Controllers.QuestionsController.Details (Forum)" in 34.4604ms
+2023-10-31 00:31:00.086 +01:00 [Information] Executed endpoint '"Forum.Controllers.QuestionsController.Details (Forum)"'
+2023-10-31 00:31:00.088 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Questions/Details/4 - - - 200 - text/html;+charset=utf-8 38.8797ms
+2023-10-31 00:31:00.101 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-10-31 00:31:00.106 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 00:31:00.113 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 7.5877ms
+2023-10-31 00:31:00.114 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.4403ms

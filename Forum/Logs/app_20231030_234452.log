@@ -1,0 +1,70 @@
+2023-10-30 23:44:52.824 +01:00 [Information] User profile is available. Using '"C:\Users\harun\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 23:44:53.259 +01:00 [Information] Now listening on: "https://localhost:7290"
+2023-10-30 23:44:53.259 +01:00 [Information] Now listening on: "http://localhost:5152"
+2023-10-30 23:44:53.279 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-30 23:44:53.280 +01:00 [Information] Hosting environment: "Development"
+2023-10-30 23:44:53.281 +01:00 [Information] Content root path: "C:\Users\harun\OneDrive\Masaüstü\Forum\Forum\"
+2023-10-30 23:44:54.181 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/ - -
+2023-10-30 23:44:54.579 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 23:44:54.604 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-30 23:44:54.627 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-10-30 23:44:54.936 +01:00 [Information] Executed ViewResult - view "Index" executed in 310.8468ms.
+2023-10-30 23:44:54.940 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 335.4239ms
+2023-10-30 23:44:54.941 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 23:44:54.968 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-10-30 23:44:54.968 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Forum.styles.css?v=WLrVMYiZoeVtYvtsR1KO9jHv7jJpDgGkNNRPzibFmBk - -
+2023-10-30 23:44:54.968 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/css/site.css?v=xb4QVjUfIwH3AAdWsQq0Z8PTgD-LybR3L14bbNR4Xc0 - -
+2023-10-30 23:44:54.968 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/images/frm1.jpg - -
+2023-10-30 23:44:54.969 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/ - - - 200 - text/html;+charset=utf-8 796.0156ms
+2023-10-30 23:44:54.969 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/images/frm2.jpg - -
+2023-10-30 23:44:54.995 +01:00 [Information] The file "/Forum.styles.css" was not modified
+2023-10-30 23:44:54.995 +01:00 [Information] The file "/css/site.css" was not modified
+2023-10-30 23:44:54.995 +01:00 [Information] The file "/images/frm1.jpg" was not modified
+2023-10-30 23:44:54.995 +01:00 [Information] The file "/images/frm2.jpg" was not modified
+2023-10-30 23:44:54.995 +01:00 [Information] The file "/lib/bootstrap/dist/css/bootstrap.min.css" was not modified
+2023-10-30 23:44:54.996 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/images/frm2.jpg - - - 304 - image/jpeg 27.7476ms
+2023-10-30 23:44:54.996 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/images/frm1.jpg - - - 304 - image/jpeg 28.2179ms
+2023-10-30 23:44:54.997 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/css/site.css?v=xb4QVjUfIwH3AAdWsQq0Z8PTgD-LybR3L14bbNR4Xc0 - - - 304 - text/css 28.4972ms
+2023-10-30 23:44:54.996 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Forum.styles.css?v=WLrVMYiZoeVtYvtsR1KO9jHv7jJpDgGkNNRPzibFmBk - - - 304 - text/css 28.2580ms
+2023-10-30 23:44:54.997 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 28.6809ms
+2023-10-30 23:44:55.012 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/lib/jquery/dist/jquery.min.js - -
+2023-10-30 23:44:55.012 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/images/ans1.jpg - -
+2023-10-30 23:44:55.012 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/images/ans2.jpg - -
+2023-10-30 23:44:55.012 +01:00 [Information] The file "/lib/jquery/dist/jquery.min.js" was not modified
+2023-10-30 23:44:55.012 +01:00 [Information] The file "/images/ans1.jpg" was not modified
+2023-10-30 23:44:55.012 +01:00 [Information] The file "/images/ans2.jpg" was not modified
+2023-10-30 23:44:55.013 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/lib/jquery/dist/jquery.min.js - - - 304 - application/javascript 0.9724ms
+2023-10-30 23:44:55.013 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/images/ans1.jpg - - - 304 - image/jpeg 0.9204ms
+2023-10-30 23:44:55.013 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/images/ans2.jpg - - - 304 - image/jpeg 0.7169ms
+2023-10-30 23:44:55.021 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/images/ans3.jpg - -
+2023-10-30 23:44:55.021 +01:00 [Information] The file "/images/ans3.jpg" was not modified
+2023-10-30 23:44:55.022 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/images/ans3.jpg - - - 304 - image/jpeg 0.9683ms
+2023-10-30 23:44:55.057 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-10-30 23:44:55.058 +01:00 [Information] The file "/lib/bootstrap/dist/js/bootstrap.bundle.min.js" was not modified
+2023-10-30 23:44:55.059 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 1.6481ms
+2023-10-30 23:44:55.061 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 23:44:55.061 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-10-30 23:44:55.061 +01:00 [Information] The file "/js/site.js" was not modified
+2023-10-30 23:44:55.062 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - application/javascript 1.0823ms
+2023-10-30 23:44:55.066 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-10-30 23:44:55.068 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 6.9071ms
+2023-10-30 23:44:55.089 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.0059ms
+2023-10-30 23:44:55.170 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/favicon.ico - -
+2023-10-30 23:44:55.171 +01:00 [Information] The file "/favicon.ico" was not modified
+2023-10-30 23:44:55.171 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/favicon.ico - - - 304 - image/x-icon 1.0102ms
+2023-10-30 23:46:58.906 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Questions - -
+2023-10-30 23:46:58.937 +01:00 [Information] Executing endpoint '"Forum.Controllers.QuestionsController.Index (Forum)"'
+2023-10-30 23:46:58.964 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Questions\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.QuestionsController" ("Forum").
+2023-10-30 23:47:01.255 +01:00 [Information] Entity Framework Core "6.0.23" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.23"' with options: "None"
+2023-10-30 23:47:03.371 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-10-30 23:47:03.400 +01:00 [Information] Executed ViewResult - view "Index" executed in 31.1036ms.
+2023-10-30 23:47:03.400 +01:00 [Information] Executed action "Forum.Controllers.QuestionsController.Index (Forum)" in 4436.072ms
+2023-10-30 23:47:03.400 +01:00 [Information] Executed endpoint '"Forum.Controllers.QuestionsController.Index (Forum)"'
+2023-10-30 23:47:03.408 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Questions - - - 200 - text/html;+charset=utf-8 4502.3033ms
+2023-10-30 23:47:03.421 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/css/site.css?v=xb4QVjUfIwH3AAdWsQq0Z8PTgD-LybR3L14bbNR4Xc0 - -
+2023-10-30 23:47:03.421 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 23:47:03.421 +01:00 [Information] The file "/css/site.css" was not modified
+2023-10-30 23:47:03.422 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.7102ms
+2023-10-30 23:47:03.422 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/css/site.css?v=xb4QVjUfIwH3AAdWsQq0Z8PTgD-LybR3L14bbNR4Xc0 - - - 304 - text/css 0.8622ms
+2023-10-30 23:47:03.425 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-10-30 23:47:03.431 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.3316ms

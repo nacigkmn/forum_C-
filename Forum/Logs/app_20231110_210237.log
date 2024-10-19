@@ -1,0 +1,256 @@
+2023-11-10 21:02:39.100 +01:00 [Information] User profile is available. Using '"C:\Users\nacig\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-10 21:02:41.236 +01:00 [Information] Now listening on: "https://localhost:7290"
+2023-11-10 21:02:41.245 +01:00 [Information] Now listening on: "http://localhost:5152"
+2023-11-10 21:02:41.287 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-11-10 21:02:41.298 +01:00 [Information] Hosting environment: "Development"
+2023-11-10 21:02:41.308 +01:00 [Information] Content root path: "C:\Users\nacig\Desktop\ASPNET\Forum\Forum\"
+2023-11-10 21:02:55.775 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/ - -
+2023-11-10 21:02:56.988 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-11-10 21:02:57.291 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-11-10 21:02:57.372 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-11-10 21:03:00.079 +01:00 [Information] Executed ViewResult - view "Index" executed in 2706.8896ms.
+2023-11-10 21:03:00.110 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 2817.1184ms
+2023-11-10 21:03:00.115 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-11-10 21:03:00.420 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/ - - - 200 - text/html;+charset=utf-8 4666.1848ms
+2023-11-10 21:03:00.811 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/lib/jquery-validate/jquery.validate.js - -
+2023-11-10 21:03:00.812 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-11-10 21:03:00.811 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-10 21:03:00.811 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - -
+2023-11-10 21:03:00.854 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 43.3258ms
+2023-11-10 21:03:00.944 +01:00 [Information] The file "/lib/jquery-validate/jquery.validate.js" was not modified
+2023-11-10 21:03:00.945 +01:00 [Information] The file "/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" was not modified
+2023-11-10 21:03:01.008 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - - 304 - application/javascript 197.3878ms
+2023-11-10 21:03:01.008 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/lib/jquery-validate/jquery.validate.js - - - 304 - application/javascript 197.5064ms
+2023-11-10 21:03:01.334 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 522.1324ms
+2023-11-10 21:03:56.956 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Identity/Account/Login - -
+2023-11-10 21:03:56.988 +01:00 [Information] Executing endpoint '"/Account/Login"'
+2023-11-10 21:03:57.176 +01:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login"
+2023-11-10 21:03:57.308 +01:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.LoginModel.OnGetAsync" - ModelState is Valid
+2023-11-10 21:03:57.345 +01:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2023-11-10 21:03:57.351 +01:00 [Information] Executed handler method "OnGetAsync", returned result "".
+2023-11-10 21:03:57.371 +01:00 [Information] Executing an implicit handler method - ModelState is Valid
+2023-11-10 21:03:57.372 +01:00 [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-11-10 21:03:57.663 +01:00 [Information] Executed page "/Account/Login" in 485.5529ms
+2023-11-10 21:03:57.663 +01:00 [Information] Executed endpoint '"/Account/Login"'
+2023-11-10 21:03:57.693 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 735.9706ms
+2023-11-10 21:03:57.739 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-10 21:03:57.741 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.3584ms
+2023-11-10 21:03:57.915 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-11-10 21:03:57.966 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 52.3967ms
+2023-11-10 21:03:59.923 +01:00 [Information] Request starting HTTP/2 POST https://localhost:7290/Identity/Account/Login application/x-www-form-urlencoded 253
+2023-11-10 21:03:59.951 +01:00 [Information] Executing endpoint '"/Account/Login"'
+2023-11-10 21:03:59.951 +01:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login"
+2023-11-10 21:04:00.096 +01:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.LoginModel.OnPostAsync" - ModelState is Valid
+2023-11-10 21:04:05.105 +01:00 [Information] Entity Framework Core "6.0.23" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.Sqlite":"6.0.23"' with options: "None"
+2023-11-10 21:04:09.372 +01:00 [Warning] User cannot sign in without a confirmed account.
+2023-11-10 21:04:09.379 +01:00 [Information] Executed handler method "OnPostAsync", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-11-10 21:04:09.414 +01:00 [Information] Executed page "/Account/Login" in 9462.5939ms
+2023-11-10 21:04:09.414 +01:00 [Information] Executed endpoint '"/Account/Login"'
+2023-11-10 21:04:09.462 +01:00 [Information] Request finished HTTP/2 POST https://localhost:7290/Identity/Account/Login application/x-www-form-urlencoded 253 - 200 - text/html;+charset=utf-8 9539.0676ms
+2023-11-10 21:04:09.504 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-10 21:04:09.506 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.1579ms
+2023-11-10 21:04:09.559 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-11-10 21:04:09.577 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.8851ms
+2023-11-10 21:04:15.630 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Identity/Account/Register - -
+2023-11-10 21:04:15.633 +01:00 [Information] Executing endpoint '"/Account/Register"'
+2023-11-10 21:04:15.647 +01:00 [Information] Route matched with "{page = \"/Account/Register\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Register"
+2023-11-10 21:04:15.649 +01:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.RegisterModel.OnGetAsync" - ModelState is Valid
+2023-11-10 21:04:15.652 +01:00 [Information] Executed handler method "OnGetAsync", returned result "".
+2023-11-10 21:04:15.652 +01:00 [Information] Executing an implicit handler method - ModelState is Valid
+2023-11-10 21:04:15.652 +01:00 [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-11-10 21:04:15.719 +01:00 [Information] Executed page "/Account/Register" in 71.9813ms
+2023-11-10 21:04:15.720 +01:00 [Information] Executed endpoint '"/Account/Register"'
+2023-11-10 21:04:15.728 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Identity/Account/Register - - - 200 - text/html;+charset=utf-8 98.2158ms
+2023-11-10 21:04:15.772 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-11-10 21:04:15.773 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-10 21:04:15.777 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.9727ms
+2023-11-10 21:04:15.788 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.2579ms
+2023-11-10 21:04:37.947 +01:00 [Information] Request starting HTTP/2 POST https://localhost:7290/Identity/Account/Register application/x-www-form-urlencoded 264
+2023-11-10 21:04:37.951 +01:00 [Information] Executing endpoint '"/Account/Register"'
+2023-11-10 21:04:37.951 +01:00 [Information] Route matched with "{page = \"/Account/Register\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Register"
+2023-11-10 21:04:37.961 +01:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync" - ModelState is Valid
+2023-11-10 21:04:38.256 +01:00 [Information] Entity Framework Core "6.0.23" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.Sqlite":"6.0.23"' with options: "None"
+2023-11-10 21:04:38.293 +01:00 [Warning] User validation failed: "DuplicateUserName".
+2023-11-10 21:04:38.294 +01:00 [Information] Executed handler method "OnPostAsync", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-11-10 21:04:38.326 +01:00 [Information] Executed page "/Account/Register" in 374.8463ms
+2023-11-10 21:04:38.326 +01:00 [Information] Executed endpoint '"/Account/Register"'
+2023-11-10 21:04:38.339 +01:00 [Information] Request finished HTTP/2 POST https://localhost:7290/Identity/Account/Register application/x-www-form-urlencoded 264 - 200 - text/html;+charset=utf-8 391.3990ms
+2023-11-10 21:04:38.365 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-10 21:04:38.385 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 20.7871ms
+2023-11-10 21:04:38.386 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-11-10 21:04:38.431 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.5285ms
+2023-11-10 21:04:59.828 +01:00 [Information] Request starting HTTP/2 POST https://localhost:7290/Identity/Account/Register application/x-www-form-urlencoded 263
+2023-11-10 21:04:59.849 +01:00 [Information] Executing endpoint '"/Account/Register"'
+2023-11-10 21:04:59.849 +01:00 [Information] Route matched with "{page = \"/Account/Register\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Register"
+2023-11-10 21:04:59.852 +01:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync" - ModelState is Valid
+2023-11-10 21:04:59.930 +01:00 [Information] Entity Framework Core "6.0.23" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.Sqlite":"6.0.23"' with options: "None"
+2023-11-10 21:05:00.637 +01:00 [Information] User created a new account with password.
+2023-11-10 21:05:00.650 +01:00 [Information] Executed handler method "OnPostAsync", returned result "Microsoft.AspNetCore.Mvc.RedirectToPageResult".
+2023-11-10 21:05:00.652 +01:00 [Information] Executing RedirectToPageResult, redirecting to "RegisterConfirmation".
+2023-11-10 21:05:00.653 +01:00 [Information] Executed page "/Account/Register" in 803.143ms
+2023-11-10 21:05:00.653 +01:00 [Information] Executed endpoint '"/Account/Register"'
+2023-11-10 21:05:00.654 +01:00 [Information] Request finished HTTP/2 POST https://localhost:7290/Identity/Account/Register application/x-www-form-urlencoded 263 - 302 0 - 826.5081ms
+2023-11-10 21:05:00.669 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Identity/Account/RegisterConfirmation?email=ali@ali&returnUrl=%2F - -
+2023-11-10 21:05:00.671 +01:00 [Information] Executing endpoint '"/Account/RegisterConfirmation"'
+2023-11-10 21:05:00.681 +01:00 [Information] Route matched with "{page = \"/Account/RegisterConfirmation\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/RegisterConfirmation"
+2023-11-10 21:05:00.705 +01:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.RegisterConfirmationModel.OnGetAsync" - ModelState is Valid
+2023-11-10 21:05:00.725 +01:00 [Information] Entity Framework Core "6.0.23" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.Sqlite":"6.0.23"' with options: "None"
+2023-11-10 21:05:00.810 +01:00 [Information] Executed handler method "OnGetAsync", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-11-10 21:05:00.843 +01:00 [Information] Executed page "/Account/RegisterConfirmation" in 162.4027ms
+2023-11-10 21:05:00.844 +01:00 [Information] Executed endpoint '"/Account/RegisterConfirmation"'
+2023-11-10 21:05:00.849 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Identity/Account/RegisterConfirmation?email=ali@ali&returnUrl=%2F - - - 200 - text/html;+charset=utf-8 180.1537ms
+2023-11-10 21:05:00.879 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-11-10 21:05:00.879 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-10 21:05:00.880 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.9678ms
+2023-11-10 21:05:00.893 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.0414ms
+2023-11-10 21:05:10.652 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Identity/Account/Login - -
+2023-11-10 21:05:10.655 +01:00 [Information] Executing endpoint '"/Account/Login"'
+2023-11-10 21:05:10.658 +01:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login"
+2023-11-10 21:05:10.660 +01:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.LoginModel.OnGetAsync" - ModelState is Valid
+2023-11-10 21:05:10.661 +01:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2023-11-10 21:05:10.661 +01:00 [Information] Executed handler method "OnGetAsync", returned result "".
+2023-11-10 21:05:10.661 +01:00 [Information] Executing an implicit handler method - ModelState is Valid
+2023-11-10 21:05:10.661 +01:00 [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-11-10 21:05:10.683 +01:00 [Information] Executed page "/Account/Login" in 24.7753ms
+2023-11-10 21:05:10.684 +01:00 [Information] Executed endpoint '"/Account/Login"'
+2023-11-10 21:05:10.691 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 39.2297ms
+2023-11-10 21:05:10.739 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-10 21:05:10.754 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 14.4549ms
+2023-11-10 21:05:10.801 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-11-10 21:05:10.832 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.0927ms
+2023-11-10 21:05:24.894 +01:00 [Information] Request starting HTTP/2 POST https://localhost:7290/Identity/Account/Login application/x-www-form-urlencoded 253
+2023-11-10 21:05:24.898 +01:00 [Information] Executing endpoint '"/Account/Login"'
+2023-11-10 21:05:24.898 +01:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login"
+2023-11-10 21:05:24.900 +01:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.LoginModel.OnPostAsync" - ModelState is Valid
+2023-11-10 21:05:24.907 +01:00 [Information] Entity Framework Core "6.0.23" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.Sqlite":"6.0.23"' with options: "None"
+2023-11-10 21:05:24.924 +01:00 [Warning] User cannot sign in without a confirmed account.
+2023-11-10 21:05:24.925 +01:00 [Information] Executed handler method "OnPostAsync", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-11-10 21:05:24.944 +01:00 [Information] Executed page "/Account/Login" in 45.2181ms
+2023-11-10 21:05:24.944 +01:00 [Information] Executed endpoint '"/Account/Login"'
+2023-11-10 21:05:24.953 +01:00 [Information] Request finished HTTP/2 POST https://localhost:7290/Identity/Account/Login application/x-www-form-urlencoded 253 - 200 - text/html;+charset=utf-8 59.3211ms
+2023-11-10 21:05:24.989 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/lib/jquery-validate/jquery.validate.js - -
+2023-11-10 21:05:24.991 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-11-10 21:05:24.992 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-10 21:05:24.993 +01:00 [Information] The file "/lib/jquery-validate/jquery.validate.js" was not modified
+2023-11-10 21:05:24.993 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.9256ms
+2023-11-10 21:05:24.993 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/lib/jquery-validate/jquery.validate.js - - - 304 - application/javascript 4.4659ms
+2023-11-10 21:05:25.007 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.4728ms
+2023-11-10 21:05:36.954 +01:00 [Information] Request starting HTTP/2 POST https://localhost:7290/Identity/Account/Login application/x-www-form-urlencoded 253
+2023-11-10 21:05:36.957 +01:00 [Information] Executing endpoint '"/Account/Login"'
+2023-11-10 21:05:36.957 +01:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login"
+2023-11-10 21:05:36.958 +01:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.LoginModel.OnPostAsync" - ModelState is Valid
+2023-11-10 21:05:36.967 +01:00 [Information] Entity Framework Core "6.0.23" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.Sqlite":"6.0.23"' with options: "None"
+2023-11-10 21:05:36.984 +01:00 [Warning] User cannot sign in without a confirmed account.
+2023-11-10 21:05:36.985 +01:00 [Information] Executed handler method "OnPostAsync", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-11-10 21:05:37.008 +01:00 [Information] Executed page "/Account/Login" in 50.7352ms
+2023-11-10 21:05:37.008 +01:00 [Information] Executed endpoint '"/Account/Login"'
+2023-11-10 21:05:37.025 +01:00 [Information] Request finished HTTP/2 POST https://localhost:7290/Identity/Account/Login application/x-www-form-urlencoded 253 - 200 - text/html;+charset=utf-8 71.4153ms
+2023-11-10 21:05:37.054 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - -
+2023-11-10 21:05:37.059 +01:00 [Information] The file "/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" was not modified
+2023-11-10 21:05:37.061 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-11-10 21:05:37.065 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - - 304 - application/javascript 11.0774ms
+2023-11-10 21:05:37.071 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-10 21:05:37.084 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 13.4889ms
+2023-11-10 21:05:37.118 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 57.0288ms
+2023-11-10 21:05:41.108 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Identity/Account/Register - -
+2023-11-10 21:05:41.110 +01:00 [Information] Executing endpoint '"/Account/Register"'
+2023-11-10 21:05:41.111 +01:00 [Information] Route matched with "{page = \"/Account/Register\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Register"
+2023-11-10 21:05:41.112 +01:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.RegisterModel.OnGetAsync" - ModelState is Valid
+2023-11-10 21:05:41.112 +01:00 [Information] Executed handler method "OnGetAsync", returned result "".
+2023-11-10 21:05:41.112 +01:00 [Information] Executing an implicit handler method - ModelState is Valid
+2023-11-10 21:05:41.112 +01:00 [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-11-10 21:05:41.136 +01:00 [Information] Executed page "/Account/Register" in 24.7964ms
+2023-11-10 21:05:41.136 +01:00 [Information] Executed endpoint '"/Account/Register"'
+2023-11-10 21:05:41.144 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Identity/Account/Register - - - 200 - text/html;+charset=utf-8 35.7835ms
+2023-11-10 21:05:41.181 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-11-10 21:05:41.184 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-10 21:05:41.184 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.8163ms
+2023-11-10 21:05:41.206 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.2319ms
+2023-11-10 21:06:11.116 +01:00 [Information] Request starting HTTP/2 POST https://localhost:7290/Identity/Account/Register application/x-www-form-urlencoded 267
+2023-11-10 21:06:11.130 +01:00 [Information] Executing endpoint '"/Account/Register"'
+2023-11-10 21:06:11.131 +01:00 [Information] Route matched with "{page = \"/Account/Register\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Register"
+2023-11-10 21:06:11.142 +01:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync" - ModelState is Valid
+2023-11-10 21:06:11.181 +01:00 [Information] Entity Framework Core "6.0.23" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.Sqlite":"6.0.23"' with options: "None"
+2023-11-10 21:06:11.207 +01:00 [Information] User created a new account with password.
+2023-11-10 21:06:11.208 +01:00 [Information] Executed handler method "OnPostAsync", returned result "Microsoft.AspNetCore.Mvc.RedirectToPageResult".
+2023-11-10 21:06:11.209 +01:00 [Information] Executing RedirectToPageResult, redirecting to "RegisterConfirmation".
+2023-11-10 21:06:11.209 +01:00 [Information] Executed page "/Account/Register" in 78.4041ms
+2023-11-10 21:06:11.210 +01:00 [Information] Executed endpoint '"/Account/Register"'
+2023-11-10 21:06:11.210 +01:00 [Information] Request finished HTTP/2 POST https://localhost:7290/Identity/Account/Register application/x-www-form-urlencoded 267 - 302 0 - 94.4185ms
+2023-11-10 21:06:11.223 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Identity/Account/RegisterConfirmation?email=suat@suat&returnUrl=%2F - -
+2023-11-10 21:06:11.226 +01:00 [Information] Executing endpoint '"/Account/RegisterConfirmation"'
+2023-11-10 21:06:11.226 +01:00 [Information] Route matched with "{page = \"/Account/RegisterConfirmation\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/RegisterConfirmation"
+2023-11-10 21:06:11.227 +01:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.RegisterConfirmationModel.OnGetAsync" - ModelState is Valid
+2023-11-10 21:06:11.235 +01:00 [Information] Entity Framework Core "6.0.23" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.Sqlite":"6.0.23"' with options: "None"
+2023-11-10 21:06:11.249 +01:00 [Information] Executed handler method "OnGetAsync", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-11-10 21:06:11.281 +01:00 [Information] Executed page "/Account/RegisterConfirmation" in 54.3454ms
+2023-11-10 21:06:11.281 +01:00 [Information] Executed endpoint '"/Account/RegisterConfirmation"'
+2023-11-10 21:06:11.287 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Identity/Account/RegisterConfirmation?email=suat@suat&returnUrl=%2F - - - 200 - text/html;+charset=utf-8 63.8737ms
+2023-11-10 21:06:11.368 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-10 21:06:11.369 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.7358ms
+2023-11-10 21:06:11.372 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-11-10 21:06:11.443 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 68.7240ms
+2023-11-10 21:06:22.035 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Identity/Account/ConfirmEmail?userId=4fd82c98-70bb-432e-80fe-a38bd13290d2&code=Q2ZESjhNb2oxVDhGMzZWSHExdVAxWlVSYXNsZ2VoUmJNbjdDY1hjTFcvbnNXYXQrdHp0NTFFbk9QdVhOblhJMDRKY3JMRjJ2aWFDeCtOYnBDWlJRS3l4eXN3eHM1WnB2Y0czVHAra1JzT0p0R1BpT1lmRDFjd2xFUlppQkNUZ3B1Qlkxa0tRa1lBOCtCVUlrdENVSS90aUlzVjNOb2pubU5sT3NnakFoUk83RCtMZTVvemhLSE4rZzR2MlcyaDVHU3Z4bWZRb2dsRENBdWJkajJLNmdiRGIrSUZ1VFNRYzNLd1BrQXZScklzWmh6UXN5emNmMllzS0J3aVJhcXd3cndSdmxsZz09&returnUrl=%2F - -
+2023-11-10 21:06:22.044 +01:00 [Information] Executing endpoint '"/Account/ConfirmEmail"'
+2023-11-10 21:06:22.077 +01:00 [Information] Route matched with "{page = \"/Account/ConfirmEmail\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/ConfirmEmail"
+2023-11-10 21:06:22.081 +01:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.ConfirmEmailModel.OnGetAsync" - ModelState is Valid
+2023-11-10 21:06:22.105 +01:00 [Information] Entity Framework Core "6.0.23" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.Sqlite":"6.0.23"' with options: "None"
+2023-11-10 21:06:22.566 +01:00 [Information] Executed handler method "OnGetAsync", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-11-10 21:06:22.696 +01:00 [Information] Executed page "/Account/ConfirmEmail" in 618.7197ms
+2023-11-10 21:06:22.696 +01:00 [Information] Executed endpoint '"/Account/ConfirmEmail"'
+2023-11-10 21:06:22.701 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Identity/Account/ConfirmEmail?userId=4fd82c98-70bb-432e-80fe-a38bd13290d2&code=Q2ZESjhNb2oxVDhGMzZWSHExdVAxWlVSYXNsZ2VoUmJNbjdDY1hjTFcvbnNXYXQrdHp0NTFFbk9QdVhOblhJMDRKY3JMRjJ2aWFDeCtOYnBDWlJRS3l4eXN3eHM1WnB2Y0czVHAra1JzT0p0R1BpT1lmRDFjd2xFUlppQkNUZ3B1Qlkxa0tRa1lBOCtCVUlrdENVSS90aUlzVjNOb2pubU5sT3NnakFoUk83RCtMZTVvemhLSE4rZzR2MlcyaDVHU3Z4bWZRb2dsRENBdWJkajJLNmdiRGIrSUZ1VFNRYzNLd1BrQXZScklzWmh6UXN5emNmMllzS0J3aVJhcXd3cndSdmxsZz09&returnUrl=%2F - - - 200 - text/html;+charset=utf-8 667.5750ms
+2023-11-10 21:06:22.784 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-10 21:06:22.784 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-11-10 21:06:22.822 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 38.0821ms
+2023-11-10 21:06:23.048 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 262.8406ms
+2023-11-10 21:06:29.571 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Identity/Account/Login - -
+2023-11-10 21:06:29.576 +01:00 [Information] Executing endpoint '"/Account/Login"'
+2023-11-10 21:06:29.577 +01:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login"
+2023-11-10 21:06:29.583 +01:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.LoginModel.OnGetAsync" - ModelState is Valid
+2023-11-10 21:06:29.584 +01:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2023-11-10 21:06:29.584 +01:00 [Information] Executed handler method "OnGetAsync", returned result "".
+2023-11-10 21:06:29.584 +01:00 [Information] Executing an implicit handler method - ModelState is Valid
+2023-11-10 21:06:29.584 +01:00 [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-11-10 21:06:29.608 +01:00 [Information] Executed page "/Account/Login" in 30.5943ms
+2023-11-10 21:06:29.608 +01:00 [Information] Executed endpoint '"/Account/Login"'
+2023-11-10 21:06:29.616 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 45.5388ms
+2023-11-10 21:06:29.655 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-11-10 21:06:29.657 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-10 21:06:29.658 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.7919ms
+2023-11-10 21:06:29.674 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.1039ms
+2023-11-10 21:06:31.728 +01:00 [Information] Request starting HTTP/2 POST https://localhost:7290/Identity/Account/Login application/x-www-form-urlencoded 256
+2023-11-10 21:06:31.731 +01:00 [Information] Executing endpoint '"/Account/Login"'
+2023-11-10 21:06:31.732 +01:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login"
+2023-11-10 21:06:31.733 +01:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.LoginModel.OnPostAsync" - ModelState is Valid
+2023-11-10 21:06:31.742 +01:00 [Information] Entity Framework Core "6.0.23" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.Sqlite":"6.0.23"' with options: "None"
+2023-11-10 21:06:32.081 +01:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2023-11-10 21:06:32.090 +01:00 [Information] User logged in.
+2023-11-10 21:06:32.091 +01:00 [Information] Executed handler method "OnPostAsync", returned result "Microsoft.AspNetCore.Mvc.LocalRedirectResult".
+2023-11-10 21:06:32.094 +01:00 [Information] Executing LocalRedirectResult, redirecting to "/".
+2023-11-10 21:06:32.095 +01:00 [Information] Executed page "/Account/Login" in 362.8114ms
+2023-11-10 21:06:32.095 +01:00 [Information] Executed endpoint '"/Account/Login"'
+2023-11-10 21:06:32.096 +01:00 [Information] Request finished HTTP/2 POST https://localhost:7290/Identity/Account/Login application/x-www-form-urlencoded 256 - 302 0 - 367.7807ms
+2023-11-10 21:06:32.111 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/ - -
+2023-11-10 21:06:32.130 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-11-10 21:06:32.130 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-11-10 21:06:32.131 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-11-10 21:06:32.159 +01:00 [Information] Executed ViewResult - view "Index" executed in 27.8001ms.
+2023-11-10 21:06:32.160 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 29.3053ms
+2023-11-10 21:06:32.160 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-11-10 21:06:32.167 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/ - - - 200 - text/html;+charset=utf-8 56.1394ms
+2023-11-10 21:06:32.308 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-10 21:06:32.313 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-11-10 21:06:32.313 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 7.3133ms
+2023-11-10 21:06:32.342 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.2131ms
+2023-11-10 21:06:39.479 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Questions/Create - -
+2023-11-10 21:06:39.513 +01:00 [Information] Executing endpoint '"Forum.Controllers.QuestionsController.Create (Forum)"'
+2023-11-10 21:06:39.517 +01:00 [Information] Route matched with "{action = \"Create\", controller = \"Questions\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Create()" on controller "Forum.Controllers.QuestionsController" ("Forum").
+2023-11-10 21:06:39.522 +01:00 [Information] Executing ViewResult, running view "Create".
+2023-11-10 21:06:39.629 +01:00 [Information] Executed ViewResult - view "Create" executed in 109.7249ms.
+2023-11-10 21:06:39.630 +01:00 [Information] Executed action "Forum.Controllers.QuestionsController.Create (Forum)" in 112.0406ms
+2023-11-10 21:06:39.630 +01:00 [Information] Executed endpoint '"Forum.Controllers.QuestionsController.Create (Forum)"'
+2023-11-10 21:06:39.644 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Questions/Create - - - 200 - text/html;+charset=utf-8 167.2613ms
+2023-11-10 21:06:39.688 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-10 21:06:39.690 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 2.8558ms
+2023-11-10 21:06:39.765 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-11-10 21:06:39.784 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.2030ms

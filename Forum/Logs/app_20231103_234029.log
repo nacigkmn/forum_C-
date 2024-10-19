@@ -1,0 +1,61 @@
+2023-11-03 23:40:31.391 +01:00 [Information] User profile is available. Using '"C:\Users\nacig\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-03 23:40:33.072 +01:00 [Information] Now listening on: "https://localhost:7290"
+2023-11-03 23:40:33.078 +01:00 [Information] Now listening on: "http://localhost:5152"
+2023-11-03 23:40:33.114 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-11-03 23:40:33.119 +01:00 [Information] Hosting environment: "Development"
+2023-11-03 23:40:33.124 +01:00 [Information] Content root path: "C:\Users\nacig\Desktop\Eksamen\Forum\Forum\"
+2023-11-03 23:40:48.044 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/ - -
+2023-11-03 23:40:48.544 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-11-03 23:40:48.745 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-11-03 23:40:48.813 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-11-03 23:40:52.719 +01:00 [Information] Executed ViewResult - view "Index" executed in 3913.1392ms.
+2023-11-03 23:40:52.749 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 4000.6915ms
+2023-11-03 23:40:52.753 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-11-03 23:40:53.009 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/images/frm2.jpg - -
+2023-11-03 23:40:53.009 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/images/frm1.jpg - -
+2023-11-03 23:40:53.009 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Forum.styles.css?v=WLrVMYiZoeVtYvtsR1KO9jHv7jJpDgGkNNRPzibFmBk - -
+2023-11-03 23:40:53.011 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/css/site.css?v=xb4QVjUfIwH3AAdWsQq0Z8PTgD-LybR3L14bbNR4Xc0 - -
+2023-11-03 23:40:53.012 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-11-03 23:40:53.034 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/ - - - 200 - text/html;+charset=utf-8 5010.9067ms
+2023-11-03 23:40:53.116 +01:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\nacig\Desktop\Eksamen\Forum\Forum\wwwroot\css\site.css"'
+2023-11-03 23:40:53.117 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/css/site.css?v=xb4QVjUfIwH3AAdWsQq0Z8PTgD-LybR3L14bbNR4Xc0 - - - 200 324 text/css 108.9160ms
+2023-11-03 23:40:53.160 +01:00 [Information] Sending file. Request path: '"/Forum.styles.css"'. Physical path: '"C:\Users\nacig\Desktop\Eksamen\Forum\Forum\obj\Debug\net6.0\scopedcss\bundle\Forum.styles.css"'
+2023-11-03 23:40:53.160 +01:00 [Information] Sending file. Request path: '"/images/frm2.jpg"'. Physical path: '"C:\Users\nacig\Desktop\Eksamen\Forum\Forum\wwwroot\Images\frm2.jpg"'
+2023-11-03 23:40:53.160 +01:00 [Information] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.min.css"'. Physical path: '"C:\Users\nacig\Desktop\Eksamen\Forum\Forum\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css"'
+2023-11-03 23:40:53.160 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Forum.styles.css?v=WLrVMYiZoeVtYvtsR1KO9jHv7jJpDgGkNNRPzibFmBk - - - 200 1122 text/css 152.0398ms
+2023-11-03 23:40:53.160 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/images/frm2.jpg - - - 200 21824 image/jpeg 151.8289ms
+2023-11-03 23:40:53.161 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162720 text/css 152.2548ms
+2023-11-03 23:40:53.260 +01:00 [Information] Sending file. Request path: '"/images/frm1.jpg"'. Physical path: '"C:\Users\nacig\Desktop\Eksamen\Forum\Forum\wwwroot\Images\frm1.jpg"'
+2023-11-03 23:40:53.261 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/images/frm1.jpg - - - 200 2450288 image/jpeg 252.1964ms
+2023-11-03 23:40:53.339 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/images/ans2.jpg - -
+2023-11-03 23:40:53.341 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/lib/jquery/dist/jquery.min.js - -
+2023-11-03 23:40:53.342 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/images/ans3.jpg - -
+2023-11-03 23:40:53.342 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-03 23:40:53.344 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-11-03 23:40:53.349 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/images/ans1.jpg - -
+2023-11-03 23:40:53.352 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-11-03 23:40:53.353 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-11-03 23:40:53.373 +01:00 [Information] Sending file. Request path: '"/images/ans2.jpg"'. Physical path: '"C:\Users\nacig\Desktop\Eksamen\Forum\Forum\wwwroot\Images\ans2.jpg"'
+2023-11-03 23:40:53.373 +01:00 [Information] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\nacig\Desktop\Eksamen\Forum\Forum\wwwroot\js\site.js"'
+2023-11-03 23:40:53.374 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/images/ans2.jpg - - - 200 36169 image/jpeg 35.1128ms
+2023-11-03 23:40:53.374 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 21.9269ms
+2023-11-03 23:40:53.421 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 78.5992ms
+2023-11-03 23:40:53.421 +01:00 [Information] Sending file. Request path: '"/images/ans3.jpg"'. Physical path: '"C:\Users\nacig\Desktop\Eksamen\Forum\Forum\wwwroot\Images\ans3.jpg"'
+2023-11-03 23:40:53.422 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/images/ans3.jpg - - - 200 41103 image/jpeg 82.2441ms
+2023-11-03 23:40:53.423 +01:00 [Information] Sending file. Request path: '"/lib/jquery/dist/jquery.min.js"'. Physical path: '"C:\Users\nacig\Desktop\Eksamen\Forum\Forum\wwwroot\lib\jquery\dist\jquery.min.js"'
+2023-11-03 23:40:53.469 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 123.6812ms
+2023-11-03 23:40:53.470 +01:00 [Information] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.bundle.min.js"'. Physical path: '"C:\Users\nacig\Desktop\Eksamen\Forum\Forum\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js"'
+2023-11-03 23:40:53.471 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 application/javascript 127.0701ms
+2023-11-03 23:40:53.536 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 182.6590ms
+2023-11-03 23:40:53.605 +01:00 [Information] Sending file. Request path: '"/images/ans1.jpg"'. Physical path: '"C:\Users\nacig\Desktop\Eksamen\Forum\Forum\wwwroot\Images\ans1.jpg"'
+2023-11-03 23:40:53.606 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/images/ans1.jpg - - - 200 954807 image/jpeg 258.9554ms
+2023-11-03 23:41:09.219 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Questions - -
+2023-11-03 23:41:09.233 +01:00 [Information] Executing endpoint '"Forum.Controllers.QuestionsController.Index (Forum)"'
+2023-11-03 23:41:09.277 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Questions\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.QuestionsController" ("Forum").
+2023-11-03 23:41:13.646 +01:00 [Information] Entity Framework Core "6.0.23" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.23"' with options: "None"
+2023-11-03 23:41:14.400 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Questions - -
+2023-11-03 23:41:14.415 +01:00 [Information] Executing endpoint '"Forum.Controllers.QuestionsController.Index (Forum)"'
+2023-11-03 23:41:14.416 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Questions\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index()" on controller "Forum.Controllers.QuestionsController" ("Forum").
+2023-11-03 23:41:14.429 +01:00 [Information] Entity Framework Core "6.0.23" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.23"' with options: "None"
+2023-11-03 23:41:19.425 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-11-03 23:41:19.425 +01:00 [Information] Executing ViewResult, running view "Index".

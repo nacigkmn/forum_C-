@@ -1,0 +1,113 @@
+2023-11-12 23:00:27.472 +01:00 [Information] User profile is available. Using '"C:\Users\nacig\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-12 23:00:29.475 +01:00 [Information] Now listening on: "https://localhost:7290"
+2023-11-12 23:00:29.483 +01:00 [Information] Now listening on: "http://localhost:5152"
+2023-11-12 23:00:29.518 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-11-12 23:00:29.523 +01:00 [Information] Hosting environment: "Development"
+2023-11-12 23:00:29.528 +01:00 [Information] Content root path: "C:\Users\nacig\Desktop\ASPNET\Forum\Forum\"
+2023-11-12 23:00:47.455 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/ - -
+2023-11-12 23:00:47.987 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-11-12 23:00:48.188 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-11-12 23:00:48.254 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-11-12 23:00:50.531 +01:00 [Information] Executed ViewResult - view "Index" executed in 2283.0782ms.
+2023-11-12 23:00:50.560 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 2370.4402ms
+2023-11-12 23:00:50.565 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-11-12 23:00:50.840 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/css/site.css?v=xb4QVjUfIwH3AAdWsQq0Z8PTgD-LybR3L14bbNR4Xc0 - -
+2023-11-12 23:00:50.844 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/images/frm2.jpg - -
+2023-11-12 23:00:50.848 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Forum.styles.css?v=WLrVMYiZoeVtYvtsR1KO9jHv7jJpDgGkNNRPzibFmBk - -
+2023-11-12 23:00:50.855 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-11-12 23:00:50.909 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/images/frm1.jpg - -
+2023-11-12 23:00:50.969 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/ - - - 200 - text/html;+charset=utf-8 3417.9515ms
+2023-11-12 23:00:51.083 +01:00 [Information] The file "/lib/bootstrap/dist/css/bootstrap.min.css" was not modified
+2023-11-12 23:00:51.083 +01:00 [Information] The file "/Forum.styles.css" was not modified
+2023-11-12 23:00:51.083 +01:00 [Information] The file "/images/frm2.jpg" was not modified
+2023-11-12 23:00:51.083 +01:00 [Information] The file "/images/frm1.jpg" was not modified
+2023-11-12 23:00:51.083 +01:00 [Information] The file "/css/site.css" was not modified
+2023-11-12 23:00:51.086 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/css/site.css?v=xb4QVjUfIwH3AAdWsQq0Z8PTgD-LybR3L14bbNR4Xc0 - - - 304 - text/css 246.1659ms
+2023-11-12 23:00:51.086 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/images/frm1.jpg - - - 304 - image/jpeg 177.1385ms
+2023-11-12 23:00:51.086 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 230.5814ms
+2023-11-12 23:00:51.086 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/images/frm2.jpg - - - 304 - image/jpeg 242.3549ms
+2023-11-12 23:00:51.087 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Forum.styles.css?v=WLrVMYiZoeVtYvtsR1KO9jHv7jJpDgGkNNRPzibFmBk - - - 304 - text/css 238.8459ms
+2023-11-12 23:00:51.206 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/images/ans1.jpg - -
+2023-11-12 23:00:51.207 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/lib/jquery/dist/jquery.min.js - -
+2023-11-12 23:00:51.206 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/images/ans3.jpg - -
+2023-11-12 23:00:51.208 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-12 23:00:51.207 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-11-12 23:00:51.210 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/lib/jquery-validate/jquery.validate.js - -
+2023-11-12 23:00:51.210 +01:00 [Information] The file "/lib/jquery/dist/jquery.min.js" was not modified
+2023-11-12 23:00:51.210 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - -
+2023-11-12 23:00:51.211 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/lib/jquery/dist/jquery.min.js - - - 304 - application/javascript 3.6914ms
+2023-11-12 23:00:51.211 +01:00 [Information] The file "/images/ans1.jpg" was not modified
+2023-11-12 23:00:51.211 +01:00 [Information] The file "/images/ans3.jpg" was not modified
+2023-11-12 23:00:51.212 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-11-12 23:00:51.212 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/images/ans1.jpg - - - 304 - image/jpeg 6.3269ms
+2023-11-12 23:00:51.212 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/images/ans3.jpg - - - 304 - image/jpeg 6.1512ms
+2023-11-12 23:00:51.206 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/images/ans2.jpg - -
+2023-11-12 23:00:51.212 +01:00 [Information] The file "/lib/bootstrap/dist/js/bootstrap.bundle.min.js" was not modified
+2023-11-12 23:00:51.213 +01:00 [Information] The file "/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" was not modified
+2023-11-12 23:00:51.212 +01:00 [Information] The file "/js/site.js" was not modified
+2023-11-12 23:00:51.214 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 6.7189ms
+2023-11-12 23:00:51.214 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - - 304 - application/javascript 4.0432ms
+2023-11-12 23:00:51.214 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - application/javascript 2.3044ms
+2023-11-12 23:00:51.215 +01:00 [Information] The file "/images/ans2.jpg" was not modified
+2023-11-12 23:00:51.215 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/images/ans2.jpg - - - 304 - image/jpeg 9.0659ms
+2023-11-12 23:00:51.215 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-11-12 23:00:51.217 +01:00 [Information] The file "/lib/jquery-validate/jquery.validate.js" was not modified
+2023-11-12 23:00:51.222 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/lib/jquery-validate/jquery.validate.js - - - 304 - application/javascript 10.6161ms
+2023-11-12 23:00:51.233 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 25.4669ms
+2023-11-12 23:00:51.326 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 110.4280ms
+2023-11-12 23:01:04.258 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Identity/Account/Login - -
+2023-11-12 23:01:04.277 +01:00 [Information] Executing endpoint '"/Account/Login"'
+2023-11-12 23:01:04.401 +01:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login"
+2023-11-12 23:01:04.542 +01:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.LoginModel.OnGetAsync" - ModelState is Valid
+2023-11-12 23:01:04.580 +01:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2023-11-12 23:01:04.587 +01:00 [Information] Executed handler method "OnGetAsync", returned result "".
+2023-11-12 23:01:04.610 +01:00 [Information] Executing an implicit handler method - ModelState is Valid
+2023-11-12 23:01:04.611 +01:00 [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-11-12 23:01:04.894 +01:00 [Information] Executed page "/Account/Login" in 492.9407ms
+2023-11-12 23:01:04.895 +01:00 [Information] Executed endpoint '"/Account/Login"'
+2023-11-12 23:01:04.910 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 651.6160ms
+2023-11-12 23:01:04.972 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-12 23:01:04.973 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.7101ms
+2023-11-12 23:01:05.170 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-11-12 23:01:05.215 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.5168ms
+2023-11-12 23:01:07.668 +01:00 [Information] Request starting HTTP/2 POST https://localhost:7290/Identity/Account/Login application/x-www-form-urlencoded 256
+2023-11-12 23:01:07.703 +01:00 [Information] Executing endpoint '"/Account/Login"'
+2023-11-12 23:01:07.704 +01:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login"
+2023-11-12 23:01:07.835 +01:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.LoginModel.OnPostAsync" - ModelState is Valid
+2023-11-12 23:01:12.129 +01:00 [Information] Entity Framework Core "6.0.23" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.Sqlite":"6.0.23"' with options: "None"
+2023-11-12 23:01:16.470 +01:00 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2023-11-12 23:01:16.481 +01:00 [Information] User logged in.
+2023-11-12 23:01:16.487 +01:00 [Information] Executed handler method "OnPostAsync", returned result "Microsoft.AspNetCore.Mvc.LocalRedirectResult".
+2023-11-12 23:01:16.490 +01:00 [Information] Executing LocalRedirectResult, redirecting to "/".
+2023-11-12 23:01:16.491 +01:00 [Information] Executed page "/Account/Login" in 8786.6796ms
+2023-11-12 23:01:16.492 +01:00 [Information] Executed endpoint '"/Account/Login"'
+2023-11-12 23:01:16.518 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/ - -
+2023-11-12 23:01:16.526 +01:00 [Information] Request finished HTTP/2 POST https://localhost:7290/Identity/Account/Login application/x-www-form-urlencoded 256 - 302 0 - 8857.6509ms
+2023-11-12 23:01:16.537 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-11-12 23:01:16.538 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-11-12 23:01:16.539 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-11-12 23:01:16.592 +01:00 [Information] Executed ViewResult - view "Index" executed in 53.6246ms.
+2023-11-12 23:01:16.593 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 55.277ms
+2023-11-12 23:01:16.593 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-11-12 23:01:16.608 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/ - - - 200 - text/html;+charset=utf-8 89.3993ms
+2023-11-12 23:01:16.666 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-11-12 23:01:16.666 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-12 23:01:16.667 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 0.8577ms
+2023-11-12 23:01:16.797 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 130.9543ms
+2023-11-12 23:01:33.085 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Questions/Create - -
+2023-11-12 23:01:33.118 +01:00 [Information] Executing endpoint '"Forum.Controllers.QuestionsController.Create (Forum)"'
+2023-11-12 23:01:33.123 +01:00 [Information] Route matched with "{action = \"Create\", controller = \"Questions\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Create()" on controller "Forum.Controllers.QuestionsController" ("Forum").
+2023-11-12 23:01:33.128 +01:00 [Information] Executing ViewResult, running view "Create".
+2023-11-12 23:01:33.300 +01:00 [Information] Executed ViewResult - view "Create" executed in 175.4067ms.
+2023-11-12 23:01:33.301 +01:00 [Information] Executed action "Forum.Controllers.QuestionsController.Create (Forum)" in 178.2797ms
+2023-11-12 23:01:33.302 +01:00 [Information] Executed endpoint '"Forum.Controllers.QuestionsController.Create (Forum)"'
+2023-11-12 23:01:33.335 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Questions/Create - - - 200 - text/html;+charset=utf-8 249.0086ms
+2023-11-12 23:01:33.525 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - -
+2023-11-12 23:01:33.526 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/lib/jquery-validation/dist/jquery.validate.min.js - -
+2023-11-12 23:01:33.526 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-11-12 23:01:33.528 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-12 23:01:33.531 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.2529ms
+2023-11-12 23:01:33.537 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/lib/jquery-validation/dist/jquery.validate.min.js - - - 404 0 - 12.3557ms
+2023-11-12 23:01:33.551 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.6848ms
+2023-11-12 23:01:33.560 +01:00 [Information] Sending file. Request path: '"/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"'. Physical path: '"C:\Users\nacig\Desktop\ASPNET\Forum\Forum\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js"'
+2023-11-12 23:01:33.560 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - - - 200 5831 application/javascript 35.5151ms

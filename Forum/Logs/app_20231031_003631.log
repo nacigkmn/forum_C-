@@ -1,0 +1,22 @@
+2023-10-31 00:36:32.106 +01:00 [Information] User profile is available. Using '"C:\Users\harun\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 00:36:32.751 +01:00 [Information] Now listening on: "https://localhost:7290"
+2023-10-31 00:36:32.751 +01:00 [Information] Now listening on: "http://localhost:5152"
+2023-10-31 00:36:32.758 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-31 00:36:32.758 +01:00 [Information] Hosting environment: "Development"
+2023-10-31 00:36:32.758 +01:00 [Information] Content root path: "C:\Users\harun\OneDrive\Masaüstü\Forum\Forum\"
+2023-10-31 00:36:33.332 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/ - -
+2023-10-31 00:36:33.497 +01:00 [Information] "Identity.Application" was not authenticated. Failure message: "Unprotect ticket failed"
+2023-10-31 00:36:33.503 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-31 00:36:33.548 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-31 00:36:33.587 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-10-31 00:36:34.133 +01:00 [Information] Executed ViewResult - view "Index" executed in 546.1944ms.
+2023-10-31 00:36:34.136 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 587.2999ms
+2023-10-31 00:36:34.136 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-31 00:36:34.170 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/ - - - 200 - text/html;+charset=utf-8 848.4163ms
+2023-10-31 00:36:34.185 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/css/site.css?v=xb4QVjUfIwH3AAdWsQq0Z8PTgD-LybR3L14bbNR4Xc0 - -
+2023-10-31 00:36:34.198 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 00:36:34.203 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 4.8570ms
+2023-10-31 00:36:34.208 +01:00 [Information] The file "/css/site.css" was not modified
+2023-10-31 00:36:34.209 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/css/site.css?v=xb4QVjUfIwH3AAdWsQq0Z8PTgD-LybR3L14bbNR4Xc0 - - - 304 - text/css 24.4111ms
+2023-10-31 00:36:34.213 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-10-31 00:36:34.251 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.5967ms

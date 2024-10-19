@@ -1,0 +1,19 @@
+2023-10-31 00:20:19.181 +01:00 [Information] User profile is available. Using '"C:\Users\harun\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 00:20:19.364 +01:00 [Information] Now listening on: "https://localhost:7290"
+2023-10-31 00:20:19.364 +01:00 [Information] Now listening on: "http://localhost:5152"
+2023-10-31 00:20:19.368 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-31 00:20:19.369 +01:00 [Information] Hosting environment: "Development"
+2023-10-31 00:20:19.369 +01:00 [Information] Content root path: "C:\Users\harun\OneDrive\Masaüstü\Forum\Forum\"
+2023-10-31 00:20:19.788 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Questions/Delete/4 - -
+2023-10-31 00:20:19.965 +01:00 [Information] Executing endpoint '"Forum.Controllers.QuestionsController.Delete (Forum)"'
+2023-10-31 00:20:19.990 +01:00 [Information] Route matched with "{action = \"Delete\", controller = \"Questions\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Int32])" on controller "Forum.Controllers.QuestionsController" ("Forum").
+2023-10-31 00:20:20.864 +01:00 [Information] Entity Framework Core "6.0.23" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.23"' with options: "None"
+2023-10-31 00:20:21.547 +01:00 [Information] Executing ViewResult, running view "Delete".
+2023-10-31 00:20:21.700 +01:00 [Information] Executed ViewResult - view "Delete" executed in 151.1545ms.
+2023-10-31 00:20:21.702 +01:00 [Information] Executed action "Forum.Controllers.QuestionsController.Delete (Forum)" in 1711.8465ms
+2023-10-31 00:20:21.703 +01:00 [Information] Executed endpoint '"Forum.Controllers.QuestionsController.Delete (Forum)"'
+2023-10-31 00:20:21.719 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 00:20:21.719 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-10-31 00:20:21.722 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 2.6894ms
+2023-10-31 00:20:21.722 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Questions/Delete/4 - - - 200 - text/html;+charset=utf-8 1937.5071ms
+2023-10-31 00:20:21.729 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.5454ms

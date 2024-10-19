@@ -1,0 +1,126 @@
+2023-11-10 21:31:46.924 +01:00 [Information] User profile is available. Using '"C:\Users\nacig\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-10 21:31:49.096 +01:00 [Information] Now listening on: "https://localhost:7290"
+2023-11-10 21:31:49.102 +01:00 [Information] Now listening on: "http://localhost:5152"
+2023-11-10 21:31:49.138 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-11-10 21:31:49.145 +01:00 [Information] Hosting environment: "Development"
+2023-11-10 21:31:49.150 +01:00 [Information] Content root path: "C:\Users\nacig\Desktop\ASPNET\Forum\Forum\"
+2023-11-10 21:32:01.461 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/ - -
+2023-11-10 21:32:01.998 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-11-10 21:32:02.366 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-11-10 21:32:02.438 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-11-10 21:32:04.876 +01:00 [Information] Executed ViewResult - view "Index" executed in 2448.3953ms.
+2023-11-10 21:32:04.906 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 2536.5925ms
+2023-11-10 21:32:04.911 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-11-10 21:32:05.181 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/ - - - 200 - text/html;+charset=utf-8 3741.7059ms
+2023-11-10 21:32:05.559 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/lib/jquery-validate/jquery.validate.js - -
+2023-11-10 21:32:05.559 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-10 21:32:05.560 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-11-10 21:32:05.560 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - -
+2023-11-10 21:32:05.599 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 40.7457ms
+2023-11-10 21:32:05.685 +01:00 [Information] The file "/lib/jquery-validate/jquery.validate.js" was not modified
+2023-11-10 21:32:05.685 +01:00 [Information] The file "/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" was not modified
+2023-11-10 21:32:05.687 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - - 304 - application/javascript 127.3184ms
+2023-11-10 21:32:05.687 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/lib/jquery-validate/jquery.validate.js - - - 304 - application/javascript 129.2206ms
+2023-11-10 21:32:05.735 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 176.4618ms
+2023-11-10 21:32:14.794 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Questions/Create - -
+2023-11-10 21:32:14.832 +01:00 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2023-11-10 21:32:14.855 +01:00 [Information] AuthenticationScheme: "Identity.Application" was challenged.
+2023-11-10 21:32:14.857 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Questions/Create - - - 302 0 - 63.4611ms
+2023-11-10 21:32:14.882 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Identity/Account/Login?ReturnUrl=%2FQuestions%2FCreate - -
+2023-11-10 21:32:14.893 +01:00 [Information] Executing endpoint '"/Account/Login"'
+2023-11-10 21:32:15.007 +01:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login"
+2023-11-10 21:32:15.180 +01:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.LoginModel.OnGetAsync" - ModelState is Valid
+2023-11-10 21:32:15.208 +01:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2023-11-10 21:32:15.214 +01:00 [Information] Executed handler method "OnGetAsync", returned result "".
+2023-11-10 21:32:15.233 +01:00 [Information] Executing an implicit handler method - ModelState is Valid
+2023-11-10 21:32:15.234 +01:00 [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-11-10 21:32:16.228 +01:00 [Information] Executed page "/Account/Login" in 1219.4229ms
+2023-11-10 21:32:16.231 +01:00 [Information] Executed endpoint '"/Account/Login"'
+2023-11-10 21:32:16.589 +01:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: RenderSectionAsync invocation in '/Views/Shared/_Layout.cshtml' is invalid. The section 'Scripts' has already been rendered.
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderSectionAsyncCore(String sectionName, Boolean required)
+   at AspNetCoreGeneratedDocument.Views_Shared__Layout.<ExecuteAsync>b__31_1() in C:\Users\nacig\Desktop\ASPNET\Forum\Forum\Views\Shared\_Layout.cshtml:line 52
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCoreGeneratedDocument.Views_Shared__Layout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-10 21:32:16.786 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Identity/Account/Login?ReturnUrl=%2FQuestions%2FCreate - - - 500 - text/html;+charset=utf-8 1903.8050ms
+2023-11-10 21:32:16.882 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-11-10 21:32:16.882 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-10 21:32:16.884 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 4.8508ms
+2023-11-10 21:32:16.954 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 73.0449ms
+2023-11-10 21:33:55.348 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-10 21:33:55.530 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 182.0830ms
+2023-11-10 21:33:57.802 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Questions/Create - -
+2023-11-10 21:33:57.816 +01:00 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+2023-11-10 21:33:57.817 +01:00 [Information] AuthenticationScheme: "Identity.Application" was challenged.
+2023-11-10 21:33:57.817 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Questions/Create - - - 302 0 - 16.2970ms
+2023-11-10 21:33:57.828 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Identity/Account/Login?ReturnUrl=%2FQuestions%2FCreate - -
+2023-11-10 21:33:57.852 +01:00 [Information] Executing endpoint '"/Account/Login"'
+2023-11-10 21:33:57.853 +01:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing page "/Account/Login"
+2023-11-10 21:33:57.898 +01:00 [Information] Executing handler method "Forum.Areas.Identity.Pages.Account.LoginModel.OnGetAsync" - ModelState is Valid
+2023-11-10 21:33:57.899 +01:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2023-11-10 21:33:57.899 +01:00 [Information] Executed handler method "OnGetAsync", returned result "".
+2023-11-10 21:33:57.900 +01:00 [Information] Executing an implicit handler method - ModelState is Valid
+2023-11-10 21:33:57.900 +01:00 [Information] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2023-11-10 21:33:58.978 +01:00 [Information] Executed page "/Account/Login" in 1124.2548ms
+2023-11-10 21:33:58.979 +01:00 [Information] Executed endpoint '"/Account/Login"'
+2023-11-10 21:33:59.005 +01:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: RenderSectionAsync invocation in '/Views/Shared/_Layout.cshtml' is invalid. The section 'Scripts' has already been rendered.
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderSectionAsyncCore(String sectionName, Boolean required)
+   at AspNetCoreGeneratedDocument.Views_Shared__Layout.<ExecuteAsync>b__31_1() in C:\Users\nacig\Desktop\ASPNET\Forum\Forum\Views\Shared\_Layout.cshtml:line 52
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCoreGeneratedDocument.Views_Shared__Layout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-10 21:33:59.077 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Identity/Account/Login?ReturnUrl=%2FQuestions%2FCreate - - - 500 - text/html;+charset=utf-8 1249.0709ms
+2023-11-10 21:33:59.133 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-11-10 21:33:59.133 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-11-10 21:33:59.134 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 1.0454ms
+2023-11-10 21:33:59.167 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.7419ms

@@ -1,0 +1,24 @@
+2023-10-30 23:39:10.337 +01:00 [Information] User profile is available. Using '"C:\Users\harun\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 23:39:10.659 +01:00 [Information] Now listening on: "https://localhost:7290"
+2023-10-30 23:39:10.659 +01:00 [Information] Now listening on: "http://localhost:5152"
+2023-10-30 23:39:10.663 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-30 23:39:10.664 +01:00 [Information] Hosting environment: "Development"
+2023-10-30 23:39:10.664 +01:00 [Information] Content root path: "C:\Users\harun\OneDrive\Masaüstü\Forum\Forum\"
+2023-10-30 23:39:11.428 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/ - -
+2023-10-30 23:39:11.873 +01:00 [Information] Executing endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 23:39:11.888 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Forum.Controllers.HomeController" ("Forum").
+2023-10-30 23:39:11.901 +01:00 [Information] Executing ViewResult, running view "Index".
+2023-10-30 23:39:12.276 +01:00 [Information] Executed ViewResult - view "Index" executed in 368.8282ms.
+2023-10-30 23:39:12.279 +01:00 [Information] Executed action "Forum.Controllers.HomeController.Index (Forum)" in 390.4554ms
+2023-10-30 23:39:12.280 +01:00 [Information] Executed endpoint '"Forum.Controllers.HomeController.Index (Forum)"'
+2023-10-30 23:39:12.311 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/ - - - 200 - text/html;+charset=utf-8 891.7300ms
+2023-10-30 23:39:12.313 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/css/site.css?v=xb4QVjUfIwH3AAdWsQq0Z8PTgD-LybR3L14bbNR4Xc0 - -
+2023-10-30 23:39:12.313 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Forum.styles.css?v=WLrVMYiZoeVtYvtsR1KO9jHv7jJpDgGkNNRPzibFmBk - -
+2023-10-30 23:39:12.341 +01:00 [Information] The file "/css/site.css" was not modified
+2023-10-30 23:39:12.342 +01:00 [Information] The file "/Forum.styles.css" was not modified
+2023-10-30 23:39:12.343 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/css/site.css?v=xb4QVjUfIwH3AAdWsQq0Z8PTgD-LybR3L14bbNR4Xc0 - - - 304 - text/css 29.7214ms
+2023-10-30 23:39:12.343 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Forum.styles.css?v=WLrVMYiZoeVtYvtsR1KO9jHv7jJpDgGkNNRPzibFmBk - - - 304 - text/css 29.8908ms
+2023-10-30 23:39:12.369 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 23:39:12.370 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-10-30 23:39:12.381 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 11.9145ms
+2023-10-30 23:39:12.395 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.6639ms

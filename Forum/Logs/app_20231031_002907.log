@@ -1,0 +1,22 @@
+2023-10-31 00:29:07.328 +01:00 [Information] User profile is available. Using '"C:\Users\harun\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-31 00:29:07.534 +01:00 [Information] Now listening on: "https://localhost:7290"
+2023-10-31 00:29:07.534 +01:00 [Information] Now listening on: "http://localhost:5152"
+2023-10-31 00:29:07.538 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-31 00:29:07.538 +01:00 [Information] Hosting environment: "Development"
+2023-10-31 00:29:07.538 +01:00 [Information] Content root path: "C:\Users\harun\OneDrive\Masaüstü\Forum\Forum\"
+2023-10-31 00:29:08.009 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Questions/Details/4 - -
+2023-10-31 00:29:08.196 +01:00 [Information] Executing endpoint '"Forum.Controllers.QuestionsController.Details (Forum)"'
+2023-10-31 00:29:08.227 +01:00 [Information] Route matched with "{action = \"Details\", controller = \"Questions\", page = \"\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(System.Nullable`1[System.Int32])" on controller "Forum.Controllers.QuestionsController" ("Forum").
+2023-10-31 00:29:08.895 +01:00 [Information] Entity Framework Core "6.0.23" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.23"' with options: "None"
+2023-10-31 00:29:09.681 +01:00 [Information] Executing ViewResult, running view "Details".
+2023-10-31 00:29:09.848 +01:00 [Information] Executed ViewResult - view "Details" executed in 165.5292ms.
+2023-10-31 00:29:09.850 +01:00 [Information] Executed action "Forum.Controllers.QuestionsController.Details (Forum)" in 1622.2382ms
+2023-10-31 00:29:09.850 +01:00 [Information] Executed endpoint '"Forum.Controllers.QuestionsController.Details (Forum)"'
+2023-10-31 00:29:09.868 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Forum.styles.css?v=WLrVMYiZoeVtYvtsR1KO9jHv7jJpDgGkNNRPzibFmBk - -
+2023-10-31 00:29:09.868 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-10-31 00:29:09.868 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-10-31 00:29:09.873 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Questions/Details/4 - - - 200 - text/html;+charset=utf-8 1867.1586ms
+2023-10-31 00:29:09.873 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 5.5990ms
+2023-10-31 00:29:09.874 +01:00 [Information] The file "/Forum.styles.css" was not modified
+2023-10-31 00:29:09.875 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Forum.styles.css?v=WLrVMYiZoeVtYvtsR1KO9jHv7jJpDgGkNNRPzibFmBk - - - 304 - text/css 6.8991ms
+2023-10-31 00:29:09.881 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.3439ms

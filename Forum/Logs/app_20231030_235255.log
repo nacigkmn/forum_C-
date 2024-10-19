@@ -1,0 +1,18 @@
+2023-10-30 23:52:55.671 +01:00 [Information] User profile is available. Using '"C:\Users\harun\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-30 23:52:56.114 +01:00 [Information] Now listening on: "https://localhost:7290"
+2023-10-30 23:52:56.114 +01:00 [Information] Now listening on: "http://localhost:5152"
+2023-10-30 23:52:56.124 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2023-10-30 23:52:56.125 +01:00 [Information] Hosting environment: "Development"
+2023-10-30 23:52:56.125 +01:00 [Information] Content root path: "C:\Users\harun\OneDrive\Masaüstü\Forum\Forum\"
+2023-10-30 23:52:56.598 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/Questions/Create - -
+2023-10-30 23:52:56.995 +01:00 [Information] Executing endpoint '"Forum.Controllers.QuestionsController.Create (Forum)"'
+2023-10-30 23:52:57.016 +01:00 [Information] Route matched with "{action = \"Create\", controller = \"Questions\", page = \"\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Create()" on controller "Forum.Controllers.QuestionsController" ("Forum").
+2023-10-30 23:52:57.034 +01:00 [Information] Executing ViewResult, running view "Create".
+2023-10-30 23:52:57.378 +01:00 [Information] Executed ViewResult - view "Create" executed in 342.6471ms.
+2023-10-30 23:52:57.382 +01:00 [Information] Executed action "Forum.Controllers.QuestionsController.Create (Forum)" in 364.6381ms
+2023-10-30 23:52:57.382 +01:00 [Information] Executed endpoint '"Forum.Controllers.QuestionsController.Create (Forum)"'
+2023-10-30 23:52:57.417 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/Questions/Create - - - 200 - text/html;+charset=utf-8 823.5374ms
+2023-10-30 23:52:57.417 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_vs/browserLink - -
+2023-10-30 23:52:57.417 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 23:52:57.426 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_framework/aspnetcore-browser-refresh.js - - - 200 12342 application/javascript;+charset=utf-8 9.2087ms
+2023-10-30 23:52:57.441 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7290/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.4387ms
